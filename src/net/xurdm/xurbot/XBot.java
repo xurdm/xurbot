@@ -7,13 +7,12 @@ import java.lang.reflect.*;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.regex.*;
-import org.jibble.pircbot.User;
 
 /**
  * 
  * @author Ryan
  */
-public class XBot extends org.jibble.pircbot.PircBot {// Notice:(\\*){3} Notice
+public class XBot extends Poop {// Notice:(\\*){3} Notice
 														// --
 	private final Pattern botPattern = Pattern
 			.compile(".*Client connecting on port (\\d+): (\\{.*\\|.*\\}.*)\\((.*)@(.*?)\\) \\[clients\\]");
